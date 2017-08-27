@@ -19,5 +19,4 @@ public class P4_LargestPalindromeProduct {
         System.out.println(largest);
     }
 
-
 }
