@@ -11,7 +11,7 @@ public class P5_SmallestMultiple {
         {
             for (int i = 11; i <= 20; i++)
             {
-                if ( smallestM % i > 0 )
+                if (smallestM % i > 0 )
                 {
                     smallestM += multiple;
                     break;
