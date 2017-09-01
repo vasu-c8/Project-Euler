@@ -13,7 +13,6 @@ public class P10_SummationOfPrimes {
         for (int i = 0; i < 2000000; i++)
             if (isPrime(i))
                 sum += i;
-
         System.out.print(sum);
     }
 }
