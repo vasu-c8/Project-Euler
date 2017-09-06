@@ -1,14 +1,14 @@
 public class P12_TriangleNumberFactors{
-        public static int triangleNumber(int n) {
+        public static int triangleNumber(int num) {
             int sum = 0;
-            for (int i = 0; i <= n; i++)
+            for (int i = 0; i <= num; i++)
                 sum += i;
             return sum;
         }
 
         public static void main(String[] args) {
 
-            int j = 0;
+            int j = 0; //jth triangular number
             int n = 0; // n represents the triangle number corresponding to j
             int numberOfDivisors = 0;
 
